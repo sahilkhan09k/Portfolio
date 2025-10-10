@@ -54,7 +54,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -62,16 +62,16 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DSA Learner",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
   {
     name: "CSS 3",
     icon: css,
@@ -88,10 +88,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  // {
-  //   name: "Zustand",
-  //   icon: Zustand,
-  // },
+  {
+    name: "Zustand",
+    icon: Zustand,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
