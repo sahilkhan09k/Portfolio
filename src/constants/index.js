@@ -30,6 +30,7 @@ import {
   Blog,
   dhru,
   harshwardhan,
+  zerodha,
 } from "../assets";
 
 export const navLinks = [
@@ -288,6 +289,44 @@ const projects = [
     ],
     image: Blog,
     source_code_link: "https://github.com/sahilkhan09k/Blog-website",
+  },
+
+  {
+    name: "Zerodha",
+    description:
+      "A web-based platform that enables users to engage in online trading, supporting real-time investment through stocks and mutual funds, providing a seamless and interactive solution for managing portfolios and executing trades efficiently for personal and professional investors.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+       {
+        name: "chart.js",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: zerodha,
+    source_code_link: "https://github.com/sahilkhan09k/Zerodha_backend",
   },
   {
     name: "Vidura",
