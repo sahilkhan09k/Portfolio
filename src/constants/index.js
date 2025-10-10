@@ -290,11 +290,39 @@ const projects = [
     image: Blog,
     source_code_link: "https://github.com/sahilkhan09k/Blog-website",
   },
-
+  {
+    name: "Vidura",
+    description:
+     "Web-based platform that handles video uploading, processing, storage, and streaming with user authentication, comment systems, and analytics, providing a scalable and efficient foundation for media applications.",
+    tags: [
+      {
+        name: "Nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JWT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cloudinary",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Vidura,
+    source_code_link: "https://github.com/sahilkhan09k/Backend-project",
+  },
   {
     name: "Zerodha",
     description:
-      "A web-based platform that enables users to engage in online trading, supporting real-time investment through stocks and mutual funds, providing a seamless and interactive solution for managing portfolios and executing trades efficiently for personal and professional investors.",
+      "A web-based platform that enables users to engage in online trading, supporting real-time investment through stocks and mutual funds, providing a seamless and interactive solution for managing portfolios and executing trades efficiently for professional investors.",
     tags: [
       {
         name: "react",
@@ -327,35 +355,6 @@ const projects = [
     ],
     image: zerodha,
     source_code_link: "https://github.com/sahilkhan09k/Zerodha_backend",
-  },
-  {
-    name: "Vidura",
-    description:
-     "Web-based platform that handles video uploading, processing, storage, and streaming with user authentication, comment systems, and analytics, providing a scalable and efficient foundation for media applications.",
-    tags: [
-      {
-        name: "Nodejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Expressjs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "JWT",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Cloudinary",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: Vidura,
-    source_code_link: "https://github.com/sahilkhan09k/Backend-project",
   },
 ];
 
