@@ -1,10 +1,10 @@
+
 import {
   mobile,
   backend,
   creator,
   web,
   javascript,
-  html,
   css,
   reactjs,
   redux,
@@ -31,6 +31,7 @@ import {
   dhru,
   harshwardhan,
   zerodha,
+  CivicPulse
 } from "../assets";
 
 export const navLinks = [
@@ -227,6 +228,44 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+  name: "CivicPulse",
+  description:
+    "AI-powered smart city issue reporting platform that enables citizens to report civic problems with photos and location data. The system uses AI vision for automatic issue classification, severity detection, and spam filtering while providing real-time geospatial visualization and a transparent issue tracking system for municipal authorities.",
+  tags: [
+    {
+      name: "Reactjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Nodejs",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Expressjs",
+      color: "green-text-gradient",
+    },
+    {
+      name: "MongoDB",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Groq AI",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Google Maps API",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "JWT",
+      color: "green-text-gradient",
+    },
+  ],
+  image: CivicPulse,
+  source_code_link: "https://github.com/sahilkhan09k/CivicPluss",
+  live_link: "https://civic-pluss.vercel.app/",
+},
   {
     name: "Chatty",
     description:

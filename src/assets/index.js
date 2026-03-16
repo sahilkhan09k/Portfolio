@@ -39,6 +39,7 @@ import DBJ from "./company/DBJ.png"
 import Youtube from "./company/Youtube.png"
 import Ac from "./company/Ac.png"
 import Bv from "./company/Bv.png"
+import CivicPulse from "./CivicPulse.png";
 
 import harshwardhan from "./harshwardhan.jpg";
 import dhru from "./dhru.jpg";
@@ -83,4 +84,5 @@ export {
   harshwardhan,
   dhru,
   zerodha,
+  CivicPulse
 };
